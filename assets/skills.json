@@ -1,0 +1,89 @@
+{
+  "data scientist": [
+    "python", "pandas", "numpy", "scikit-learn", "matplotlib", "seaborn",
+    "machine learning", "deep learning", "tensorflow", "keras", "sql",
+    "data visualization", "statistics", "nlp", "spark", "hadoop",
+    "powerbi", "tableau", "big data", "jupyter"
+  ],
+  "web developer": [
+    "html", "css", "javascript", "react", "node", "express", "bootstrap",
+    "tailwind", "jquery", "git", "github", "mongodb", "sql", "mysql",
+    "responsive design", "api integration", "rest api", "next.js"
+  ],
+  "android developer": [
+    "java", "kotlin", "android studio", "xml", "firebase", "sqlite",
+    "material design", "jetpack", "mvvm", "retrofit", "room database",
+    "live data", "databinding", "push notifications", "google maps api"
+  ],
+  "ui ux designer": [
+    "figma", "adobe xd", "photoshop", "illustrator", "wireframing", "prototyping",
+    "design thinking", "user research", "a b testing", "color theory",
+    "typography", "responsive design", "accessibility", "interaction design"
+  ],
+  "cloud engineer": [
+    "aws", "azure", "gcp", "docker", "kubernetes", "terraform", "linux",
+    "cloudformation", "ansible", "ci cd", "jenkins", "cloudwatch",
+    "s3", "ec2", "lambda", "vpc", "rds", "cloud security"
+  ],
+  "devops engineer": [
+    "docker", "kubernetes", "terraform", "ansible", "jenkins", "ci cd",
+    "prometheus", "grafana", "linux", "scripting", "bash", "cloudformation",
+    "aws", "git", "github", "monitoring", "pipelines"
+  ],
+  "data analyst": [
+    "excel", "python", "pandas", "sql", "powerbi", "tableau", "data cleaning",
+    "data visualization", "business analysis", "reporting", "vba", "dashboards",
+    "statistics", "pivot tables", "google sheets"
+  ],
+  "frontend developer": [
+    "html", "css", "javascript", "react", "vue", "next.js", "typescript",
+    "tailwind", "bootstrap", "api integration", "responsive design",
+    "redux", "git", "vite", "axios"
+  ],
+  "backend developer": [
+    "node", "express", "python", "django", "flask", "mysql", "mongodb",
+    "sql", "api", "rest api", "jwt", "authentication", "docker",
+    "postgresql", "microservices", "graphql"
+  ],
+  "cybersecurity analyst": [
+    "network security", "vulnerability assessment", "penetration testing",
+    "firewalls", "wireshark", "nmap", "security audits", "risk management",
+    "incident response", "encryption", "tcp/ip", "malware analysis"
+  ],
+  "human resources": [
+    "recruitment", "employee relations", "hr policies", "performance management",
+    "training and development", "conflict resolution", "talent acquisition",
+    "onboarding", "labor laws", "payroll", "communication skills"
+  ],
+  "marketing manager": [
+    "seo", "content marketing", "social media", "campaign management",
+    "google analytics", "branding", "email marketing", "market research",
+    "advertising", "digital marketing", "crm", "lead generation"
+  ],
+  "sales executive": [
+    "client acquisition", "negotiation", "crm", "cold calling", "lead generation",
+    "sales presentations", "account management", "customer service",
+    "sales targets", "communication skills"
+  ],
+  "business analyst": [
+    "requirements gathering", "process mapping", "stakeholder management",
+    "data analysis", "uml", "user stories", "gap analysis", "sql",
+    "business process improvement", "agile methodologies"
+  ],
+  "content writer": [
+    "creative writing", "seo writing", "copywriting", "editing",
+    "proofreading", "content management", "research skills",
+    "blogging", "social media", "storytelling", "grammar"
+  ],
+  "project manager": [
+    "project planning", "risk management", "resource allocation",
+    "budgeting", "stakeholder communication", "agile", "scrum",
+    "ms project", "jira", "time management", "leadership"
+  ],
+  "customer support": [
+    "communication skills", "problem solving", "crm", "ticketing systems",
+    "customer satisfaction", "multitasking", "product knowledge",
+    "call handling", "conflict resolution"
+  ]
+}
+
