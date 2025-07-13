@@ -1,1 +1,3 @@
-# Resumatch
+RESUMATCH is an AI-powered resume analysis tool designed to help both job seekers and recruiters streamline the hiring and preparation process. It allows users to upload resumes in PDF format and select a specific job role. The system then analyzes the resume content against the expected skills for that role and provides a detailed comparison. This includes matched and missing skills, a resume score, improvement tips, and recommended learning resources. The app also stores all resume analysis results in a local database, which can be reviewed by the admin.
+
+Job seekers can use this tool to identify skill gaps and enhance their resumes before applying for jobs. Recruiters can analyze multiple resumes at once to shortlist candidates whose skills match the role they are hiring for. The application features a user-friendly interface built using Streamlit and uses an SQLite database to store resume evaluations for future reference.
