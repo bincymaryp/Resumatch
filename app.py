@@ -8,7 +8,7 @@ import sqlite3
 import json
 import pandas as pd
 
-# ------------------- Load Roles ----------------------
+
 @st.cache_data
 def load_roles():
     try:
@@ -19,7 +19,6 @@ def load_roles():
         st.error("❌ Could not load roles.")
         return []
 
-# ------------------- Database Setup ----------------------
 
 def init_db():
     conn = sqlite3.connect("resumatch.db")
@@ -55,7 +54,7 @@ def show_database_table():
     st.subheader("📋 All Resume Entries in Database")
     st.dataframe(df)
 
-# ------------------- UI Components ----------------------
+
 
 def show_resume_tips(resume_text):
     tips = get_resume_tips(resume_text)
@@ -102,7 +101,7 @@ def show_score(score):
     )
     st.progress(score)
 
-# ------------------- Job Seeker Section ----------------------
+
 
 def job_seeker_section():
     roles = load_roles()
@@ -134,11 +133,11 @@ def job_seeker_section():
         if missing:
             show_courses(missing)
 
-        # Save to DB
+       
         name = uploaded_file.name.replace(".pdf", "")
         save_resume_to_db(name, selected_role, score, matched, missing)
 
-# ------------------- Recruiter Section ----------------------
+
 
 def recruiter_section():
     roles = load_roles()
@@ -170,7 +169,7 @@ def recruiter_section():
             name = file.name.replace(".pdf", "")
             save_resume_to_db(name, selected_role, score, matched, missing)
 
-# ------------------- Main App ----------------------
+
 
 def main():
     init_db()
